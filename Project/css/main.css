@@ -1,0 +1,103 @@
+/* My CSS */
+
+
+/* body */
+body {
+	width: 100%;
+	color: white;
+	background-color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em; 
+	padding: 2% 2% 2% 2%;
+	margin: 0 auto;
+}
+
+
+/* container */
+#container {
+	width: 98%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #00000c;
+	border: 5px #0000FF;
+	border-radius: 5px;
+}
+
+#logo {
+	margin-left: -20px;
+	border: 2px 2px #FF0099;
+}
+
+/* h1 */
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #FF0099;
+	padding: 2%;
+	font-size: 1.5em; 
+	margin: 0 auto;  
+	text-align: center;
+}
+
+/* h2 */
+h2 {
+	font-family: Helvetica;
+	color: #ffffff;
+	font-size: 1em;
+	text-align: center;
+	padding: 2%;
+}
+
+h3 {
+	text-align: left;
+}
+
+/* footer */
+footer {
+	padding: 2%;
+	width: 100%;
+	text-align: bottom-center;
+	background-position: bottom;
+
+}
+
+/* images */
+img {
+	max-width: 50%;
+	border-radius: 15px;
+	padding: 1%;
+}
+
+/* login links */
+ul li {
+	display: inline;
+	text-align: left;
+}
+
+ul {
+	background-position: right;
+}
+
+h3 .header {
+	text-align: left;
+}
+
+p {
+	text-align: center;
+}
+
+button {
+	background-color: #FF0099;
+	color: white;
+	width: 150px;
+	height: 30px;
+}
+
+#register input {
+	padding: 5px 5px 5px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#register label {
+	padding: 5px 5px 5px;
+}
