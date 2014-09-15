@@ -12,7 +12,6 @@ body {
 	margin: 0 auto;
 }
 
-
 /* container */
 #container {
 	width: 98%;
@@ -60,11 +59,12 @@ footer {
 
 }
 
-/* images */
-img {
-	max-width: 50%;
-	border-radius: 15px;
+/* main image on home page */
+#homeimage {
+	width: 50%;
+	border-radius: 10px;
 	padding: 1%;
+	margin: 0 auto;
 }
 
 /* login links */
@@ -101,3 +101,5 @@ button {
 #register label {
 	padding: 5px 5px 5px;
 }
+
+
