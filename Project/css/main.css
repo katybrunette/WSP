@@ -1,162 +1,152 @@
 /* My CSS */
 
-
-/* body */
 body {
-	background:#fff url("../images/bgpattern.png") repeat;
-	width: 100%;
-	color: #FF0099;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1em; 
-	padding: 2% 2% 2% 2%;
-	margin: 0 auto;
+background:#fff url(../images/bgpattern.png) repeat;
+width:100%;
+color:#FF0099;
+font-family:'Roboto', sans-serif;
+font-size:1em;
+margin:0 auto;
+padding:2%;
 }
 
-/* container */
 #container {
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-	background-color: #00000c;
-	border: 5px #0000FF;
-	border-radius: 5px;
-	padding-bottom: 20px;
+width:100%;
+text-align:center;
+background-color:#00000c;
+border:5px #0000FF;
+border-radius:5px;
+padding-bottom:20px;
+margin:0 auto;
 }
 
 #logo {
-	margin-left: -8px;
-	border: 2px 2px #FF0099;
+margin-left:-8px;
+border:2px 2px #FF0099;
 }
 
-/* h1 */
 h1 {
-	font-family: 'Roboto', sans-serif;
-	color: #FF0099;
-	padding: 2%;
-	font-size: 4em; 
-	margin: 0 auto;  
-	text-align: center;
+font-family:'Roboto', sans-serif;
+color:#FF0099;
+font-size:4em;
+text-align:center;
+margin:0 auto;
+padding:2%;
 }
 
-/* h2 */
 h2 {
-	font-family: 'Roboto', sans-serif;
-	color: #ffffff;
-	font-size: 1.5em;
-	text-align: center;
-	padding: 2%;
+font-family:'Roboto', sans-serif;
+color:#ffffff;
+font-size:1.5em;
+text-align:center;
+padding:2%;
 }
 
 h3 {
-	text-align: left;
-	font-family: 'Roboto', sans-serif;
+text-align:left;
+font-family:'Roboto', sans-serif;
 }
 
-/* footer */
-footer {
-	padding: 2%;
-	width: 100%;
-	text-align: bottom-center;
-	background-position: bottom;
-
-}
-
-/* main image on home page */
 #homeimage {
-	width: 50%;
-	border-radius: 10px;
-	padding: 1%;
-	margin: 0 auto;
-}
-
-h3 .header {
-	text-align: left;
+width:50%;
+border-radius:10px;
+margin:0 auto;
+padding:1%;
 }
 
 p {
-	text-align: center;
+text-align:center;
 }
 
 button {
-	background-color: #FF0099;
-	color: white;
-	width: 150px;
-	height: 30px;
-	padding: 5px;
+background-color:#FF0099;
+color:white;
+width:150px;
+height:30px;
+padding:5px;
 }
 
 #signInButton {
-	color: black;
+color:black;
 }
 
 #register input {
-	padding: 5px 5px 5px;
-	width: 200px;
-	margin: 0 auto;
+width:200px;
+margin:0 auto;
+padding:5px;
 }
 
 #register label {
-	padding: 5px 5px 5px;
+padding:5px;
+}
+
+#registerNow input {
+width:200px;
+margin:0 auto;
+padding:5px;
+}
+
+#registerNow label {
+padding:5px;
 }
 
 .photogallery {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
+width:80%;
+overflow:hidden;
+margin:0 auto;
 }
 
 .photo {
-    color: #797478;
-    float: left;
+color:#797478;
+float:left;
+width:16%;
+margin:2% 2% 50px;
 }
- 
+
 .photo img {
-    max-width: 100%;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-}
-	
-.photo {
-    float: left;   
-    width: 16%;
-    margin:  2% 2% 50px 2%;
+max-width:100%;
+border-radius:5px;
+border-radius:5px;
+border-radius:5px;
 }
 
 figure {
-	padding: 5px 5px 5px;
-	margin-left: 9px;
-}
-
-.search h1 {
-	text-align: left;
+margin-left:9px;
+padding:5px;
 }
 
 .search p {
-	margin-left: -1080px;
+margin-left:-1080px;
 }
 
 .about {
-	font-family: 'Roboto', sans-serif;
-	font-size: 2em;
-	color: white;
-	padding: 2px 2px 2px;
+font-family:'Roboto', sans-serif;
+font-size:2em;
+color:white;
+padding:2px;
 }
 
 aside h2 {
-	font-size: 3em;
-	color: #FF0099;
-	font-weight: bold;
-	margin-left: -110px;
+font-size:3em;
+color:#FF0099;
+font-weight:bold;
+margin-left:-110px;
 }
 
 aside p {
-	font-size: 1.5em;
-	color: #FF0099;
-	margin-left: 20px;
+font-size:1.5em;
+color:#FF0099;
+margin-left:20px;
 }
 
 aside {
-	margin-top: -650px;
-	margin-left: 60px;
+margin-top:-650px;
+margin-left:60px;
 }
+
+h3 .header,.search h1 {
+text-align:left;
+}
+
+
+
