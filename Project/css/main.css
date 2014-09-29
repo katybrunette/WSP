@@ -143,3 +143,20 @@ figure {
 	padding: 2px 2px 2px;
 }
 
+aside h2 {
+	font-size: 3em;
+	color: #FF0099;
+	font-weight: bold;
+	margin-left: -110px;
+}
+
+aside p {
+	font-size: 1.5em;
+	color: #FF0099;
+	margin-left: 20px;
+}
+
+aside {
+	margin-top: -650px;
+	margin-left: 60px;
+}
