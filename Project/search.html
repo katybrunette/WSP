@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>PolePlay - Results</title>
+    <title>PolePlay - Search</title>
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
@@ -16,41 +16,49 @@
     </div>
 </head>
 
-<body>
-
-    <div id="container">
-        <h1>Search</h1>
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     </div>
-  
-    <div class="photogallery">
-            <div class="photo">
-                <a href="#"><img src="images/pole1.jpg" alt=""></a>
-            </div>
- 
-            <div class="photo">
-                <a href="#"><img src="images/pole2.jpg" alt=""></a>
-            </div>
 
-            <div class="photo">
-                <a href="#"><img src="images/pole3.jpg" alt=""></a>
-            </div>
-            
-            <div class="photo">
-                <a href="#"><img src="images/pole4.jpg" alt=""></a>
-            </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="active"><a href="search.html">Search</a></li>
+        <li class="active"><a href="playroom.html">Playroom</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="register.html">Register</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
-            <div class="photo">
-                <a href="#"><img src="images/pole5.jpg" alt=""></a>
-            </div>
 
-            <div class="photo">
-                <a href="#"><img src="images/pole6.jpg" alt=""></a>
-            </div>
+<body>
+    <div class="search">
+        <h1>Search</h1>
+        <p>Search for photos, videos, and anything else pole-related here!</p>
+    </div>
 
-            <div class="photo">
-                <a href="#"><img src="images/pole7.jpg" alt=""></a>
+    <header class=”header”>
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
             </div>
-        </div>
-
+            <button type="submit" class="btn btn-default" a href="results.html">Submit</button>
+        </form>
+    </header>
+    
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

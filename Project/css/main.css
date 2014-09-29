@@ -3,9 +3,9 @@
 
 /* body */
 body {
+	background:#fff url("../images/bgpattern.png") repeat;
 	width: 100%;
-	color: white;
-	background-color: white;
+	color: #FF0099;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em; 
 	padding: 2% 2% 2% 2%;
@@ -14,12 +14,13 @@ body {
 
 /* container */
 #container {
-	width: 98%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	background-color: #00000c;
 	border: 5px #0000FF;
 	border-radius: 5px;
+	padding-bottom: 20px;
 }
 
 #logo {
@@ -68,16 +69,6 @@ footer {
 	margin: 0 auto;
 }
 
-/* login links */
-ul li {
-	display: inline;
-	text-align: left;
-}
-
-ul {
-	background-position: right;
-}
-
 h3 .header {
 	text-align: left;
 }
@@ -91,6 +82,7 @@ button {
 	color: white;
 	width: 150px;
 	height: 30px;
+	padding: 5px;
 }
 
 #signInButton {
@@ -135,3 +127,19 @@ figure {
 	padding: 5px 5px 5px;
 	margin-left: 9px;
 }
+
+.search h1 {
+	text-align: left;
+}
+
+.search p {
+	margin-left: -1080px;
+}
+
+.about {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	color: white;
+	padding: 2px 2px 2px;
+}
+
